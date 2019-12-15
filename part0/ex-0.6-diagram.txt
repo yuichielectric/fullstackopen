@@ -1,0 +1,17 @@
+note over browser:
+browser starts executing js-code
+that re-draws the all notes
+end note
+
+browser-->server: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa
+
+note over server:
+server starts to save the new note
+end note
+
+server-->browser: 201 Created {"message":"note created"}
+
+note over browser:
+browser starts executing js-code
+that re-draws the all notes
+end note
